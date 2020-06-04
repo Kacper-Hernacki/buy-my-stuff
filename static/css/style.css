@@ -1,0 +1,39 @@
+.card {
+    height: 400px; /* Your height here */
+    overflow: hidden;
+}
+
+.card-image {
+    height: 200px; /* Your height here */
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #ee6e73;
+    padding: 10;
+  }
+  
+  .footer-list {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 40px;
+  }
+  
+  .footer-link {
+    color: white;
+    transition: all 0.2s;
+  }
+  
+  .footer-link:hover {
+    transform:  scale(1.1);
+  }
+  
+  .footer-paragraph {
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+  }
+  
+  .fab {
+    font-size: 65px;
+  }
